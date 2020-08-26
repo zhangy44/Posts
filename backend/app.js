@@ -19,7 +19,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://yang:OIuTsHZzB0Dp4x9N@cluster0-swfeo.mongodb.net/mean?w=majority"
+    "MONGODBCONNECTIONURL"
   )
   .then(() => {
     console.log("Connected to database!");
